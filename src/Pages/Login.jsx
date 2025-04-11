@@ -130,7 +130,7 @@ export default function Login() {
           </Button>
         </Box>
         <Typography align="center" sx={{ py: 2 }}>
-          Don't have an account? <Link href="/register">Sign Up</Link>
+          Don't have an account? <Link to="/register">Sign Up</Link>
         </Typography>
       </Card>
     </Box>

@@ -19,7 +19,6 @@ import FormControl from "@mui/material/FormControl";
 import TextField from "@mui/material/TextField";
 
 export default function Register() {
-
   const [userEmail, setUserEmail] = useState("");
   const [userPasword, setUserPassword] = useState("");
   const [userConfirmPassword, setUserConfirmPassword] = useState("");
@@ -28,7 +27,7 @@ export default function Register() {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [showErrorPassword, setShowErrorPassword] = useState(false);
-  
+
   const navigate = useNavigate();
   const notifications = useNotifications();
 
@@ -185,7 +184,7 @@ export default function Register() {
           </Button>
         </Box>
         <Typography align="center" sx={{ py: 2 }}>
-          Have an account? <Link href="/">Login</Link>
+          Have an account? <Link to="/">Login</Link>
         </Typography>
       </Card>
     </Box>

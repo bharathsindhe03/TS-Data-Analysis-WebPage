@@ -1,6 +1,6 @@
 import Loader from "./Components/Loader";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Navigate,

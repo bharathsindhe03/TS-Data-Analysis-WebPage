@@ -21,7 +21,7 @@ export default function App() {
   }
 
   return (
-    <Router basename="/TS-Data-Analysis-WebPage">
+    <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/home" element={user ? <Home /> : <Navigate to="/" />} />

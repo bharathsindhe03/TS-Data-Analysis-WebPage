@@ -9,7 +9,7 @@ import TextField from "@mui/material/TextField";
 import SignInWithEmail from "../Services/Login";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import { useNavigate } from "react-router-dom";
-import Link from "@mui/material/Link";
+import { Link } from "react-router-dom"; 
 import InputAdornment from "@mui/material/InputAdornment";
 import { useNotifications } from "@toolpad/core/useNotifications";
 import Visibility from "@mui/icons-material/Visibility";
